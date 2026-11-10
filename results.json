@@ -84,10 +84,10 @@
       "find": "solid copper cube,",
       "replace": "solid copper cube of edge length 10 cm,"
     },
-    "route": "auto_apply",
+    "route": "faculty_review",
     "confidence": 0.92,
     "evidence": "Solution uses (10×10^(-2))^3 = (0.1 m)^3, i.e., a 10 cm edge length, but the question statement does not provide any dimension, so the stem is missing required data.",
-    "student_reply": "Hi! You’re right – the question didn’t tell us the size of the cube, which is needed to compute the volume change. We added the missing detail (edge length = 10 cm) and now the answer 50 mm³ matches the solution. Thanks for catching that!"
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R007",
@@ -99,10 +99,10 @@
       "find": "and an inductance are connected",
       "replace": "and an inductance of 95.5 mH are connected"
     },
-    "route": "auto_apply",
+    "route": "faculty_review",
     "confidence": 0.92,
     "evidence": "Hindi report points out missing inductance; solution assumes L = 95.5 mH, confirming the stem is incomplete.",
-    "student_reply": "Bilkul sahi – inductance ki value missing thi. Humne question mein 95.5 mH add kar diya hai, ab answer (50 Ω) sahi hai."
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R008",
@@ -114,10 +114,10 @@
       "find": "and an inductance are connected",
       "replace": "and an inductance of 95.5 mH are connected"
     },
-    "route": "auto_apply",
+    "route": "faculty_review",
     "confidence": 0.92,
     "evidence": "Question statement lacks inductance value; stored solution uses L = 95.5 mH to get 50 Ω, so the stem is missing data.",
-    "student_reply": "Hey! You’re right – the question didn’t give the inductance, so it can’t be solved. We’ve added the missing value (95.5 mH) so the answer (50 Ω) now makes sense."
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R009",
@@ -146,15 +146,11 @@
     "questionId": "68e872546e45ba37dcc16bc0",
     "verdict": "defect",
     "repair": "option_repair",
-    "edit": {
-      "field": "question",
-      "find": "(C) ",
-      "replace": "(C) ⟦1 : 1⟧"
-    },
-    "route": "auto_apply",
+    "edit": null,
+    "route": "faculty_review",
     "confidence": 0.95,
     "evidence": "The correct force ratio for two opposite charges is 1:1, but none of the given options match; option C is blank and the answer key points to C, indicating a missing correct option.",
-    "student_reply": "Hi! We saw that option C was empty. For two charges the forces are equal, so the ratio should be 1 : 1. We’ll add that as option C so the question works correctly."
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R012",
@@ -191,15 +187,11 @@
     "questionId": "63765a28f1d8416ae0408d89",
     "verdict": "defect",
     "repair": "markup_leak",
-    "edit": {
-      "field": "question",
-      "find": "\\frac{7}{8}",
-      "replace": "⟦7/8⟧"
-    },
-    "route": "auto_apply",
+    "edit": null,
+    "route": "faculty_review",
     "confidence": 0.92,
     "evidence": "The question shows raw LaTeX \\frac{7}{8} instead of rendered MathML, causing a markup leak; the solution already uses MathML for expressions.",
-    "student_reply": "Hi! We saw that the fraction was appearing as raw code (\\frac{7}{8}) instead of a proper symbol. We've fixed it so the fraction now displays correctly. Thanks for pointing it out!"
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R015",
@@ -222,10 +214,10 @@
       "find": "a = 40 cm",
       "replace": "a = 20 cm"
     },
-    "route": "auto_apply",
+    "route": "faculty_review",
     "confidence": 0.95,
     "evidence": "Key is 20 and independent solver also got 20; stored solution incorrectly gave 40 cm, so solution is wrong.",
-    "student_reply": "Hey! The correct side length is 20 cm. The answer key is right – the solution had a typo and gave 40 cm. After fixing the calculation (using buoyancy before and after removing the 800 g mass) you get a = 20 cm. Thanks for catching it!"
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R017",
@@ -243,30 +235,22 @@
     "questionId": "612151a6a34397610a9a2e58",
     "verdict": "defect",
     "repair": "solution_fix",
-    "edit": {
-      "field": "solution",
-      "find": "<h3>⟦=5.469×10^(−10)m=5.47\\AA⟧ ⟦λ=(h)/(|p|)=(h)/(|I|)⟧ ⟦=2.65×10^(−18)J⟧ ⟦=16.8eV⟧</h3>",
-      "replace": "<h3>⟦λ = 0.3\\text{ nm}=3.0\\times10^{-10}\\text{ m}⟧ ⟦p = \\frac{h}{\\lambda}=\\frac{6.626\\times10^{-34}}{3.0\\times10^{-10}}=2.21\\times10^{-24}\\text{ kg·m/s}⟧ ⟦KE = \\frac{p^{2}}{2m_{e}}=\\frac{(2.21\\times10^{-24})^{2}}{2\\times9.11\\times10^{-31}}=2.68\\times10^{-18}\\text{ J}=16.8\\text{ eV}⟧</h3>"
-    },
+    "edit": null,
     "route": "faculty_review",
     "confidence": 0.93,
     "evidence": "Key B matches solver and correct calculation; stored solution uses a different wavelength (5.47 Å) and unrelated steps, so it does not solve the given question.",
-    "student_reply": "Hey! Your answer B is actually correct – the electron’s kinetic energy is about 16.8 eV. The solution that was shown used a different wavelength (5.47 Å) and therefore didn’t match the question. We’ve updated the solution with the right steps, so everything lines up now."
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R019",
     "questionId": "612151a6a34397610a9a2e58",
     "verdict": "defect",
     "repair": "solution_fix",
-    "edit": {
-      "field": "solution",
-      "find": "<h3>⟦=5.469×10^(−10)m=5.47\\AA⟧ ⟦λ=(h)/(|p|)=(h)/(|I|)⟧ ⟦=2.65×10^(−18)J⟧ ⟦=16.8eV⟧</h3>",
-      "replace": "<h3>⟦λ = 0.3\\text{ nm}=3.0\\times10^{-10}\\text{ m}⟧ ⟦p = \\frac{h}{\\lambda}=\\frac{6.626\\times10^{-34}}{3.0\\times10^{-10}}=2.21\\times10^{-24}\\text{ kg·m/s}⟧ ⟦KE = \\frac{p^{2}}{2m_{e}}=\\frac{(2.21\\times10^{-24})^{2}}{2\\times9.11\\times10^{-31}}=2.68\\times10^{-18}\\text{ J}=16.8\\text{ eV}⟧</h3>"
-    },
+    "edit": null,
     "route": "faculty_review",
     "confidence": 0.93,
     "evidence": "Same as above – the posted solution belongs to a different problem; it does not correctly address the 0.3 nm wavelength asked here.",
-    "student_reply": "Hi! The correct choice is indeed B (≈16.8 eV). The solution you saw was for a different wavelength, so it didn’t match the question. We’ve replaced it with the proper calculation, so now the solution and answer agree."
+    "student_reply": "Thanks for flagging this. We found a problem and a teacher will verify the correction before it is published."
   },
   {
     "reportId": "R020",
