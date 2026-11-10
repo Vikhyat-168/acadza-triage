@@ -1,0 +1,16 @@
+{
+  "solver": "A",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R039",
+        "verdict": "language_mode",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.99,
+        "evidence": "Student asks for the question in Hindi; the stored question and solution are correct and need no change.",
+        "student_reply": "We understand you’d like the question in Hindi. The current version is only in English, and we’ll forward your request to the team. Meanwhile, you can try translating the text or ask a teacher for help. Good luck with your studies!"
+      }
+    ]
+  }
+}

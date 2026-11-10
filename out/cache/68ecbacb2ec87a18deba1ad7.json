@@ -1,0 +1,16 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R023",
+        "verdict": "defect",
+        "repair": "wrong_chapter",
+        "edit": null,
+        "confidence": 0.95,
+        "evidence": "The question asks about the absolute refractory period of an action potential, which is part of the Neural Control (physiology) chapter, but it is currently filed under \"The Living World\".",
+        "student_reply": "Thanks for pointing that out! The question itself is fine, but it was placed under the wrong chapter. We'll move it to the Neural Control chapter so it matches the topic."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "solver": "C",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R040",
+        "verdict": "no_error",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.97,
+        "evidence": "Key C; solver and stored solution both give C",
+        "student_reply": "Hey! The correct answer is indeed option C – Golden rice. It’s engineered to produce beta‑carotene, a precursor of vitamin A, so eating it can help prevent the night‑blindness that occurs with vitamin A deficiency. The key and solution are right, so no change is needed."
+      }
+    ]
+  }
+}

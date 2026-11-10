@@ -1,0 +1,20 @@
+{
+  "solver": "20",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R016",
+        "verdict": "defect",
+        "repair": "solution_fix",
+        "edit": {
+          "field": "solution",
+          "find": "a = 40 cm",
+          "replace": "a = 20 cm"
+        },
+        "confidence": 0.95,
+        "evidence": "Key is 20 and independent solver also got 20; stored solution incorrectly gave 40 cm, so solution is wrong.",
+        "student_reply": "Hey! The correct side length is 20 cm. The answer key is right – the solution had a typo and gave 40 cm. After fixing the calculation (using buoyancy before and after removing the 800 g mass) you get a = 20 cm. Thanks for catching it!"
+      }
+    ]
+  }
+}

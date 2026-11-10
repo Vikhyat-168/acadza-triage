@@ -1,0 +1,16 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R043",
+        "verdict": "no_error",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.97,
+        "evidence": "Key B; independent solver and stored solution both give B (ratio 4:1).",
+        "student_reply": "Hey! The answer key is actually correct. When you combine the 64 drops, the total charge becomes 64 × 5 µC and the radius becomes 4 times larger (since volume is conserved). Surface density σ = Q/Area, so σ_big/σ_small = (64 q)/(4π(4r)^2) ÷ (q)/(4πr^2) = 64 · r^2/(16 r^2) = 4. Hence the ratio is 4:1, option B. The bigger drop does have more area, but it also has a lot more charge, giving a higher surface charge density."
+      }
+    ]
+  }
+}

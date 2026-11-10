@@ -1,0 +1,16 @@
+{
+  "solver": "C",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R036",
+        "verdict": "display_issue",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.96,
+        "evidence": "The question and options are present in the stored HTML; the student’s complaint is about options being cut off on their phone screen, which is a rendering/layout problem, not a content error.",
+        "student_reply": "Hey, thanks for letting us know! It looks like the options aren’t fully visible on your phone screen. This is a display issue, not a mistake in the question itself. We’ll work on fixing the layout so everything fits nicely. In the meantime, you can try rotating your device or zooming out to see the full options."
+      }
+    ]
+  }
+}

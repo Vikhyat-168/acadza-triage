@@ -1,0 +1,16 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R025",
+        "verdict": "defect",
+        "repair": "diagram",
+        "edit": null,
+        "confidence": 0.9,
+        "evidence": "The stem mentions \"as shown in figure\" for the sub‑hemispherical bubble, but the stored question contains no image.",
+        "student_reply": "Hey! We checked the question and indeed the figure that should illustrate the sub‑hemispherical bubble is missing. That’s why the statement \"as shown in figure\" can’t be verified. Our team will look into adding the appropriate diagram. Thanks for flagging it!"
+      }
+    ]
+  }
+}

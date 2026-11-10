@@ -1,0 +1,16 @@
+{
+  "solver": "C",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R042",
+        "verdict": "defect",
+        "repair": "wrong_chapter",
+        "edit": null,
+        "confidence": 0.95,
+        "evidence": "The question deals with a parallel‑plate capacitor and displacement current, which belongs to electromagnetism, not Geometrical optics.",
+        "student_reply": "Thanks for pointing it out! You're right – this capacitor problem is about electromagnetism, not geometrical optics. We'll move it to the correct chapter."
+      }
+    ]
+  }
+}

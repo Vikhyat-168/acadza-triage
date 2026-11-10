@@ -1,0 +1,20 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R021",
+        "verdict": "defect",
+        "repair": "answer_key",
+        "edit": {
+          "field": "answer",
+          "find": "[\"\",\"B\"]",
+          "replace": "[\"B\"]"
+        },
+        "confidence": 0.97,
+        "evidence": "Key had an empty entry and \"B\"; solver and solution both give B, so answer key format is wrong.",
+        "student_reply": "Hi! You’re right – the correct option is B (≈1.44 min). The answer key was stored as a two‑item array [\"\",\"B\"] which made the app think it was a multiple‑correct question. We’ve fixed it to just [\"B\"], so you’ll see B as the single correct answer now."
+      }
+    ]
+  }
+}

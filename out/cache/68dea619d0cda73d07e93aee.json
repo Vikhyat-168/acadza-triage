@@ -1,0 +1,16 @@
+{
+  "solver": "4",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R031",
+        "verdict": "no_error",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.97,
+        "evidence": "Key answer is 4; independent solver also got 4 and the stored solution derives t = 4 s, so the answer is correct.",
+        "student_reply": "Hi! Answer actually 4 seconds. दोनों wheels की angular acceleration अलग‑अलग है, इसलिए पहले alignment के बाद दूसरा wheel एक पूरा चक्र कम करता है, जिससे t = 4 s मिलता है. 2 s वाला result एक calculation slip है. Keep practicing, you're doing great!"
+      }
+    ]
+  }
+}

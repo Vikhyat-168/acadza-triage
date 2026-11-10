@@ -1,0 +1,46 @@
+{
+  "solver": "A",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R002",
+        "verdict": "defect",
+        "repair": "answer_key",
+        "edit": {
+          "field": "answer",
+          "find": "C",
+          "replace": "A"
+        },
+        "confidence": 0.97,
+        "evidence": "Key C; solver and stored solution both give 50 V which is option A, so the answer key is wrong.",
+        "student_reply": "Hi! You’re right – the supply voltage comes out to 50 V, which is option A. The key mistakenly shows C. We’ve updated it to A."
+      },
+      {
+        "reportId": "R003",
+        "verdict": "defect",
+        "repair": "answer_key",
+        "edit": {
+          "field": "answer",
+          "find": "C",
+          "replace": "A"
+        },
+        "confidence": 0.97,
+        "evidence": "Key C; solver and stored solution both give 50 V which is option A, so the answer key is wrong.",
+        "student_reply": "Hi! You’re right – the supply voltage comes out to 50 V, which is option A. The key mistakenly shows C. We’ve updated it to A."
+      },
+      {
+        "reportId": "R001",
+        "verdict": "defect",
+        "repair": "answer_key",
+        "edit": {
+          "field": "answer",
+          "find": "C",
+          "replace": "A"
+        },
+        "confidence": 0.97,
+        "evidence": "Key C; solver and stored solution both give 50 V which is option A, so the answer key is wrong.",
+        "student_reply": "Hi! You’re right – the supply voltage comes out to 50 V, which is option A. The key mistakenly shows C. We’ve updated it to A."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "solver": "20",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R024",
+        "verdict": "defect",
+        "repair": "answer_form",
+        "edit": {
+          "field": "question",
+          "find": "Then the frictional force is equal to",
+          "replace": "Then the frictional force is equal to (in Newtons)"
+        },
+        "confidence": 0.92,
+        "evidence": "Question asks for a numeric frictional force but does not state the unit; solution uses Newtons, so unit should be mentioned in the stem.",
+        "student_reply": "Hi! Thanks for pointing that out. The question was missing the unit for the frictional force. We've added “(in Newtons)” after the phrase “equal to” so the answer format is clear. Keep up the good work!"
+      }
+    ]
+  }
+}

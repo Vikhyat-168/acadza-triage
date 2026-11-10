@@ -1,0 +1,33 @@
+{
+  "solver": "UNSOLVABLE (inductance value missing)",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R008",
+        "verdict": "defect",
+        "repair": "stem_data",
+        "edit": {
+          "field": "question",
+          "find": "and an inductance are connected",
+          "replace": "and an inductance of 95.5 mH are connected"
+        },
+        "confidence": 0.92,
+        "evidence": "Question statement lacks inductance value; stored solution uses L = 95.5 mH to get 50 Ω, so the stem is missing data.",
+        "student_reply": "Hey! You’re right – the question didn’t give the inductance, so it can’t be solved. We’ve added the missing value (95.5 mH) so the answer (50 Ω) now makes sense."
+      },
+      {
+        "reportId": "R007",
+        "verdict": "defect",
+        "repair": "stem_data",
+        "edit": {
+          "field": "question",
+          "find": "and an inductance are connected",
+          "replace": "and an inductance of 95.5 mH are connected"
+        },
+        "confidence": 0.92,
+        "evidence": "Hindi report points out missing inductance; solution assumes L = 95.5 mH, confirming the stem is incomplete.",
+        "student_reply": "Bilkul sahi – inductance ki value missing thi. Humne question mein 95.5 mH add kar diya hai, ab answer (50 Ω) sahi hai."
+      }
+    ]
+  }
+}

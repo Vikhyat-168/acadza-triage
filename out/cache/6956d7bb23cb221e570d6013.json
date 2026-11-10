@@ -1,0 +1,16 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R028",
+        "verdict": "no_error",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.97,
+        "evidence": "Key B; independent solver and stored solution both give tan⁻¹(4). The derivation matches the physics equations.",
+        "student_reply": "Hey! The correct angle comes from setting the maximum height equal to the horizontal range: (u² sin²θ)/(2g) = (u² sin2θ)/g → tanθ = 4, so θ = tan⁻¹4. The answer tan⁻¹2 would arise from a slip in the algebra. Your effort is great—just watch the factor of 2 in the height formula. Keep it up!"
+      }
+    ]
+  }
+}

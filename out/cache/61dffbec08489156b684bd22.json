@@ -1,0 +1,20 @@
+{
+  "solver": "A",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R012",
+        "verdict": "defect",
+        "repair": "spelling",
+        "edit": {
+          "field": "question",
+          "find": "Epithellial tisue",
+          "replace": "Epithelial tissue"
+        },
+        "confidence": 0.96,
+        "evidence": "Option A contains the misspelled text \"Epithellial tisue\"; correcting it to \"Epithelial tissue\" fixes the typo.",
+        "student_reply": "Thanks for pointing out the typo! We've corrected option A to read \"Epithelial tissue\". Good catch!"
+      }
+    ]
+  }
+}

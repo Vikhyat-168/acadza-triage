@@ -1,0 +1,16 @@
+{
+  "solver": "3113",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R033",
+        "verdict": "no_error",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.97,
+        "evidence": "Key is 3113; independent solver also got 3113; solution rounds area to 311.3 (4 sig figs) then multiplies by 10 giving 3113.",
+        "student_reply": "Hi! The surface area is 6 × 7.203² = 311.299 m². Since the side length is given to 4 significant figures, we round the area to 4 sf → 311.3 m². Multiplying by 10 gives 3113. So the answer key is correct."
+      }
+    ]
+  }
+}

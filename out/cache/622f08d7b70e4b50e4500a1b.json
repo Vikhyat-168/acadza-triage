@@ -1,0 +1,25 @@
+{
+  "solver": "C",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R010",
+        "verdict": "defect",
+        "repair": "option_repair",
+        "edit": null,
+        "confidence": 0.55,
+        "evidence": "Only three options (A)-(C) are present; an SCQ should list four options (A)-(D).",
+        "student_reply": "Thanks for flagging this! The question currently shows only three choices, so option D is missing. We'll have a teacher add the missing option."
+      },
+      {
+        "reportId": "R009",
+        "verdict": "defect",
+        "repair": "option_repair",
+        "edit": null,
+        "confidence": 0.55,
+        "evidence": "Only three options (A)-(C) are present; an SCQ should list four options (A)-(D).",
+        "student_reply": "Thanks for letting us know. The question is missing option D, and we'll get a teacher to add the missing choice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "solver": "C",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R017",
+        "verdict": "already_fixed",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.98,
+        "evidence": "Faculty edit on 2026-11-07 changed 'mere' to 'more' in options, which is after the report date and the current question no longer contains the typo.",
+        "student_reply": "Thanks for pointing it out! The typo in the options was already corrected by our faculty after your report, so the question now reads correctly."
+      }
+    ]
+  }
+}

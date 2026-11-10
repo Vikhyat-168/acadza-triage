@@ -1,0 +1,20 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R022",
+        "verdict": "defect",
+        "repair": "spelling",
+        "edit": {
+          "field": "question",
+          "find": "Choroid plexux",
+          "replace": "Choroid plexus"
+        },
+        "confidence": 0.96,
+        "evidence": "Option D contains misspelled word 'plexux'; fixing spelling does not affect answer key (B).",
+        "student_reply": "Thanks for pointing out the typo! We've corrected 'Choroid plexux' to 'Choroid plexus' in the options. The correct answer remains B."
+      }
+    ]
+  }
+}

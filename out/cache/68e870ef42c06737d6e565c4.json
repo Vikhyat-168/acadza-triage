@@ -1,0 +1,20 @@
+{
+  "solver": "D",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R004",
+        "verdict": "defect",
+        "repair": "answer_key",
+        "edit": {
+          "field": "answer",
+          "find": "A",
+          "replace": "D"
+        },
+        "confidence": 0.97,
+        "evidence": "Stored answer key is \"A\" but both the stored solution and independent solver compute P = (1/3)·ρ·v^2 = 4800 Pa, which corresponds to option D.",
+        "student_reply": "Thanks for flagging! Actually, using P = (1/3)ρv² with ρ = 9×10⁻² kg/m³ and v = 400 m/s gives P = 4800 Pa, which is option D. The key was mistakenly set to A. Good catch, but the correct value is 4800 Pa."
+      }
+    ]
+  }
+}

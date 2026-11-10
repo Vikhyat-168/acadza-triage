@@ -1,0 +1,16 @@
+{
+  "solver": "A",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R041",
+        "verdict": "not_actionable",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.99,
+        "evidence": "Report text is unintelligible (\"asdfgh\"), no specific problem identified.",
+        "student_reply": "Hey! We couldn't understand the issue you reported. Could you please describe the problem in more detail so we can help you out?"
+      }
+    ]
+  }
+}

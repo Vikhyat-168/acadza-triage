@@ -1,0 +1,20 @@
+{
+  "solver": "D",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R013",
+        "verdict": "defect",
+        "repair": "exam_reference",
+        "edit": {
+          "field": "question",
+          "find": "(NEET 2019)",
+          "replace": ""
+        },
+        "confidence": 0.95,
+        "evidence": "The question text contains the exam tag \"(NEET 2019)\"; student flagged it; this matches the exam_reference repair.",
+        "student_reply": "Hi! We noticed the \"(NEET 2019)\" tag in the question. It's just a reference to the exam source, and we'll remove it so the question looks cleaner. Thanks for pointing it out!"
+      }
+    ]
+  }
+}

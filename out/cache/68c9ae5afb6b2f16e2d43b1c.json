@@ -1,0 +1,16 @@
+{
+  "solver": "D",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R037",
+        "verdict": "display_issue",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.96,
+        "evidence": "The question, answer key and solution are all correct; the complaint is about loading speed, which is a platform/display problem.",
+        "student_reply": "Hey! Thanks for letting us know. The question itself is fine – the slowdown is a technical glitch on the app. Our team will look into the loading issue so it runs smoothly for you."
+      }
+    ]
+  }
+}

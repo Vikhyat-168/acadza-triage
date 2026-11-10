@@ -1,0 +1,16 @@
+{
+  "solver": "A",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R038",
+        "verdict": "app_issue",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.97,
+        "evidence": "Answer key is A; stored solution and independent solver both give A. The question and answer are correct, so the problem is the app recorded a different option.",
+        "student_reply": "Thanks for letting us know! It looks like the question itself is fine – the correct answer is option A. We'll check the app's recording function and fix the issue so your choice is saved correctly."
+      }
+    ]
+  }
+}

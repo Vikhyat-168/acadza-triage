@@ -1,0 +1,228 @@
+[
+  {
+    "reportId": "R005",
+    "solver": "1",
+    "flags": []
+  },
+  {
+    "reportId": "R029",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R012",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R002",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R003",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R001",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R004",
+    "solver": "D",
+    "flags": []
+  },
+  {
+    "reportId": "R008",
+    "solver": "UNSOLVABLE (inductance value missing)",
+    "flags": []
+  },
+  {
+    "reportId": "R007",
+    "solver": "UNSOLVABLE (inductance value missing)",
+    "flags": []
+  },
+  {
+    "reportId": "R034",
+    "solver": "UNSOLVABLE (no option matches both A and R being false)",
+    "flags": []
+  },
+  {
+    "reportId": "R010",
+    "solver": "C",
+    "flags": []
+  },
+  {
+    "reportId": "R009",
+    "solver": "C",
+    "flags": []
+  },
+  {
+    "reportId": "R017",
+    "solver": "C",
+    "flags": []
+  },
+  {
+    "reportId": "R032",
+    "solver": "8",
+    "flags": []
+  },
+  {
+    "reportId": "R026",
+    "solver": "B",
+    "flags": []
+  },
+  {
+    "reportId": "R042",
+    "solver": "C",
+    "flags": []
+  },
+  {
+    "reportId": "R023",
+    "solver": "B",
+    "flags": []
+  },
+  {
+    "reportId": "R038",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R014",
+    "solver": "C",
+    "flags": []
+  },
+  {
+    "reportId": "R040",
+    "solver": "C",
+    "flags": []
+  },
+  {
+    "reportId": "R044",
+    "solver": "14",
+    "flags": []
+  },
+  {
+    "reportId": "R028",
+    "solver": "B",
+    "flags": []
+  },
+  {
+    "reportId": "R022",
+    "solver": "B",
+    "flags": []
+  },
+  {
+    "reportId": "R015",
+    "solver": "UNSOLVABLE (multiple options correspond to the correct answer)",
+    "flags": []
+  },
+  {
+    "reportId": "R016",
+    "solver": "20",
+    "flags": []
+  },
+  {
+    "reportId": "R018",
+    "solver": "B",
+    "flags": [
+      "guard: 'find' matches 0 times, need exactly 1"
+    ]
+  },
+  {
+    "reportId": "R019",
+    "solver": "B",
+    "flags": [
+      "guard: 'find' matches 0 times, need exactly 1"
+    ]
+  },
+  {
+    "reportId": "R039",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R013",
+    "solver": "D",
+    "flags": []
+  },
+  {
+    "reportId": "R030",
+    "solver": "D",
+    "flags": []
+  },
+  {
+    "reportId": "R036",
+    "solver": "C",
+    "flags": []
+  },
+  {
+    "reportId": "R021",
+    "solver": "B",
+    "flags": []
+  },
+  {
+    "reportId": "R011",
+    "solver": "UNSOLVABLE (correct ratio 1:1 not provided)",
+    "flags": []
+  },
+  {
+    "reportId": "R041",
+    "solver": "A",
+    "flags": []
+  },
+  {
+    "reportId": "R043",
+    "solver": "B",
+    "flags": []
+  },
+  {
+    "reportId": "R027",
+    "solver": "A",
+    "flags": [
+      "possible_prompt_injection"
+    ]
+  },
+  {
+    "reportId": "R006",
+    "solver": "50000",
+    "flags": []
+  },
+  {
+    "reportId": "R035",
+    "solver": "D",
+    "flags": []
+  },
+  {
+    "reportId": "R025",
+    "solver": "B",
+    "flags": []
+  },
+  {
+    "reportId": "R037",
+    "solver": "D",
+    "flags": []
+  },
+  {
+    "reportId": "R020",
+    "solver": "ABD",
+    "flags": []
+  },
+  {
+    "reportId": "R033",
+    "solver": "3113",
+    "flags": []
+  },
+  {
+    "reportId": "R031",
+    "solver": "4",
+    "flags": []
+  },
+  {
+    "reportId": "R024",
+    "solver": "20",
+    "flags": []
+  }
+]

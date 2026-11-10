@@ -1,0 +1,16 @@
+{
+  "solver": "A",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R027",
+        "verdict": "no_error",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.98,
+        "evidence": "Key A; independent solver and stored solution both give A (γ = 3α = 5.7×10⁻⁵ /°C).",
+        "student_reply": "Hi! We checked the calculation: α = 0.19 cm / (100 cm × 100 °C) = 1.9×10⁻⁵ /°C, so γ = 3α = 5.7×10⁻⁵ /°C. That matches option A, which is why the answer key is correct. No change is needed."
+      }
+    ]
+  }
+}

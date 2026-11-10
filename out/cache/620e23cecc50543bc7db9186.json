@@ -1,0 +1,16 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R026",
+        "verdict": "defect",
+        "repair": "syllabus",
+        "edit": null,
+        "confidence": 0.95,
+        "evidence": "Student reported the question as out of NEET syllabus; per policy such claims are classified as defect/syllabus.",
+        "student_reply": "Thanks for flagging! We’ll ask a faculty member to check whether this question fits the NEET syllabus. You’ll hear back soon."
+      }
+    ]
+  }
+}

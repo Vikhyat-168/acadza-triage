@@ -1,0 +1,33 @@
+{
+  "solver": "B",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R018",
+        "verdict": "defect",
+        "repair": "solution_fix",
+        "edit": {
+          "field": "solution",
+          "find": "<h3>⟦=5.469×10^(−10)m=5.47\\AA⟧ ⟦λ=(h)/(|p|)=(h)/(|I|)⟧ ⟦=2.65×10^(−18)J⟧ ⟦=16.8eV⟧</h3>",
+          "replace": "<h3>⟦λ = 0.3\\text{ nm}=3.0\\times10^{-10}\\text{ m}⟧ ⟦p = \\frac{h}{\\lambda}=\\frac{6.626\\times10^{-34}}{3.0\\times10^{-10}}=2.21\\times10^{-24}\\text{ kg·m/s}⟧ ⟦KE = \\frac{p^{2}}{2m_{e}}=\\frac{(2.21\\times10^{-24})^{2}}{2\\times9.11\\times10^{-31}}=2.68\\times10^{-18}\\text{ J}=16.8\\text{ eV}⟧</h3>"
+        },
+        "confidence": 0.93,
+        "evidence": "Key B matches solver and correct calculation; stored solution uses a different wavelength (5.47 Å) and unrelated steps, so it does not solve the given question.",
+        "student_reply": "Hey! Your answer B is actually correct – the electron’s kinetic energy is about 16.8 eV. The solution that was shown used a different wavelength (5.47 Å) and therefore didn’t match the question. We’ve updated the solution with the right steps, so everything lines up now."
+      },
+      {
+        "reportId": "R019",
+        "verdict": "defect",
+        "repair": "solution_fix",
+        "edit": {
+          "field": "solution",
+          "find": "<h3>⟦=5.469×10^(−10)m=5.47\\AA⟧ ⟦λ=(h)/(|p|)=(h)/(|I|)⟧ ⟦=2.65×10^(−18)J⟧ ⟦=16.8eV⟧</h3>",
+          "replace": "<h3>⟦λ = 0.3\\text{ nm}=3.0\\times10^{-10}\\text{ m}⟧ ⟦p = \\frac{h}{\\lambda}=\\frac{6.626\\times10^{-34}}{3.0\\times10^{-10}}=2.21\\times10^{-24}\\text{ kg·m/s}⟧ ⟦KE = \\frac{p^{2}}{2m_{e}}=\\frac{(2.21\\times10^{-24})^{2}}{2\\times9.11\\times10^{-31}}=2.68\\times10^{-18}\\text{ J}=16.8\\text{ eV}⟧</h3>"
+        },
+        "confidence": 0.93,
+        "evidence": "Same as above – the posted solution belongs to a different problem; it does not correctly address the 0.3 nm wavelength asked here.",
+        "student_reply": "Hi! The correct choice is indeed B (≈16.8 eV). The solution you saw was for a different wavelength, so it didn’t match the question. We’ve replaced it with the proper calculation, so now the solution and answer agree."
+      }
+    ]
+  }
+}

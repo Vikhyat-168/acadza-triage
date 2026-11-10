@@ -1,0 +1,20 @@
+{
+  "solver": "ABD",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R020",
+        "verdict": "defect",
+        "repair": "answer_key",
+        "edit": {
+          "field": "answer",
+          "find": "[\"A, B, D\"]",
+          "replace": "[\"A\",\"B\",\"D\"]"
+        },
+        "confidence": 0.96,
+        "evidence": "Key stored as a single string \"A, B, D\"; solver and correct answer are A, B, D. Answer key format should be an array of separate option strings.",
+        "student_reply": "Hey! We checked your answer – A, B and D are indeed the right choices. The problem was that the answer key was saved in the wrong format, so the system didn’t recognise your selection. It’s now fixed, so you’ll get the credit you earned. Good job!"
+      }
+    ]
+  }
+}

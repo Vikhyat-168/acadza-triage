@@ -1,0 +1,20 @@
+{
+  "solver": "C",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R014",
+        "verdict": "defect",
+        "repair": "markup_leak",
+        "edit": {
+          "field": "question",
+          "find": "\\frac{7}{8}",
+          "replace": "⟦7/8⟧"
+        },
+        "confidence": 0.92,
+        "evidence": "The question shows raw LaTeX \\frac{7}{8} instead of rendered MathML, causing a markup leak; the solution already uses MathML for expressions.",
+        "student_reply": "Hi! We saw that the fraction was appearing as raw code (\\frac{7}{8}) instead of a proper symbol. We've fixed it so the fraction now displays correctly. Thanks for pointing it out!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "solver": "A",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R029",
+        "verdict": "no_error",
+        "repair": null,
+        "edit": null,
+        "confidence": 0.97,
+        "evidence": "Key A; independent solver also got A; solution steps give μ = 0.8, matching key.",
+        "student_reply": "Hi! We checked the problem again. Using F‑μmg = ma with m = 10 kg, the two equations give μ = 0.8, which is option A. Your 0.4 must be from a slip in the algebra. Keep practicing – you’re on the right track!"
+      }
+    ]
+  }
+}

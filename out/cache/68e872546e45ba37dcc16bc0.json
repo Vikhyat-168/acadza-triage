@@ -1,0 +1,20 @@
+{
+  "solver": "UNSOLVABLE (correct ratio 1:1 not provided)",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R011",
+        "verdict": "defect",
+        "repair": "option_repair",
+        "edit": {
+          "field": "question",
+          "find": "(C) ",
+          "replace": "(C) ⟦1 : 1⟧"
+        },
+        "confidence": 0.95,
+        "evidence": "The correct force ratio for two opposite charges is 1:1, but none of the given options match; option C is blank and the answer key points to C, indicating a missing correct option.",
+        "student_reply": "Hi! We saw that option C was empty. For two charges the forces are equal, so the ratio should be 1 : 1. We’ll add that as option C so the question works correctly."
+      }
+    ]
+  }
+}

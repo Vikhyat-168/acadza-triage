@@ -1,0 +1,20 @@
+{
+  "solver": "1",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R005",
+        "verdict": "defect",
+        "repair": "answer_key",
+        "edit": {
+          "field": "answer",
+          "find": "2",
+          "replace": "1"
+        },
+        "confidence": 0.97,
+        "evidence": "Stored solution gives total flux = q/(2ε0) which matches (n q)/(2ε0) with n=1; both solution and independent solver agree, key says 2.",
+        "student_reply": "Hey! We checked the math and the total flux comes out to q/(2ε0), so the factor n is 1. The answer key had a typo showing 2. We've updated it to 1. Good catch!"
+      }
+    ]
+  }
+}

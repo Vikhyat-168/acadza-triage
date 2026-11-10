@@ -1,0 +1,16 @@
+{
+  "solver": "UNSOLVABLE (no option matches both A and R being false)",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R034",
+        "verdict": "defect",
+        "repair": "unsound",
+        "edit": null,
+        "confidence": 0.73,
+        "evidence": "Both Assertion and Reason are false (resultant intensity = 2I₀, not I₀; intensity is not always the sum for non‑zero phase), and none of the four options represent this combination.",
+        "student_reply": "Hi! We checked the physics: with a 90° phase difference the intensity becomes 2 I₀, so the assertion is false. The reason also isn’t generally true, so it’s false too. Since none of the four choices match ‘both false’, the question itself is flawed. A teacher will review it."
+      }
+    ]
+  }
+}

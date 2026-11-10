@@ -1,0 +1,16 @@
+{
+  "solver": "UNSOLVABLE (multiple options correspond to the correct answer)",
+  "triage": {
+    "reports": [
+      {
+        "reportId": "R015",
+        "verdict": "defect",
+        "repair": "identical_options",
+        "edit": null,
+        "confidence": 0.93,
+        "evidence": "Options B and C both read \"0 W\", creating duplicate answer choices.",
+        "student_reply": "Thanks for pointing it out! We see that options B and C are identical (both 0 W). This duplication can be confusing, so we'll have the question corrected."
+      }
+    ]
+  }
+}
